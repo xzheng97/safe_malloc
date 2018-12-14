@@ -1,0 +1,14 @@
+CS 537 Programming Assignment #4
+
+This program is a special version of the malloc and free library routines that checks on common heap allocation and usage mistakes. This version of malloc and free will be called malloc537 and free537. The program also has one extra function, memcheck537, for checking if a heap allocated memory address range is safe to use.
+
+Authors
+
+Youmin Han and Xianjie Zheng worked on the construction and improvement of the code together.
+
+Online sources:  Red Black Tree Algorithms
+                  https://www.geeksforgeeks.org/c-program-red-black-tree-insertion/
+                  https://towardsdatascience.com/red-black-binary-tree-maintaining-balance-e342f5aa6f5
+                  https://github.com/amitbansal7/Data-Structures-and-Algorithms/edit/master/9.Red-Black-tree/RedBlackTrees.c
+                  https://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+                  https://www.cs.auckland.ac.nz/software/AlgAnim/red_black.html
