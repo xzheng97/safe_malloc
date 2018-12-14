@@ -2,6 +2,7 @@ CS 537 Programming Assignment #4
 
 This program is a special version of the malloc and free library routines that checks on common heap allocation and usage mistakes. This version of malloc and free will be called malloc537 and free537. The program also has one extra function, memcheck537, for checking if a heap allocated memory address range is safe to use.
 
+NOTE: There is no main.c, users should write their own main.c file and can simply call malloc537/realloc537/free537/memcheck537 in order to use them.
 Authors
 
 Youmin Han and Xianjie Zheng worked on the construction and improvement of the code together.
