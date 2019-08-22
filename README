@@ -1,10 +1,10 @@
-CS 537 Programming Assignment #4
+# CS 537 Programming Assignment #4
 
 This program is a special version of the malloc and free library routines that checks on common heap allocation and usage mistakes. This version of malloc and free will be called malloc537 and free537. The program also has one extra function, memcheck537, for checking if a heap allocated memory address range is safe to use.
 
-NOTE: There is no main.c, users should write their own main.c file and can simply call malloc537/realloc537/free537/memcheck537 in order to use them.
+## NOTE: There is no main.c, users should write their own main.c file and can simply call malloc537/realloc537/free537/memcheck537 in order to use them.
 
-Methods functions:
+## Methods functions:
 void *malloc537(size_t size): 
  
 In addition to actually allocating the memory by calling malloc(), this function will record a tuple (addri, leni), for the memory that you allocate in the heap. (If the allocated memory was previously freed, this will be a bit more complicated.) You will get the starting address, addri, from the return value from malloc() and the length, leni, from the size parameter. You can check the size parameter for zero length (this is not actually an error, but unusual enough that it is worth reporting).
